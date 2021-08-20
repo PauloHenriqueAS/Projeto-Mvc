@@ -35,3 +35,4 @@
 /home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/obj/Debug/netcoreapp3.1/projetoFinalUdemy.pdb
 /home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/obj/Debug/netcoreapp3.1/projetoFinalUdemy.genruntimeconfig.cache
 /home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/obj/Debug/netcoreapp3.1/projetoFinalUdemy.csproj.CopyComplete
+/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/obj/Debug/netcoreapp3.1/Razor/Views/Departments/Index.cshtml.g.cs

@@ -1,6 +1,6 @@
 using System;
 
-namespace projetoFinalUdemy.Models
+namespace projetoFinalUdemy.Models.ViewModels
 {
     public class ErrorViewModel
     {
