@@ -8,9 +8,21 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using projetoFinalUdemy.Models;
 
 namespace projetoFinalUdemy
-{
+{   
+    
+   /*public IConfiguration Configuration { get; }
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+        services.AddDbContext<projetoFinalUdemyContext>(options =>
+            options.UseMySql(Configuration.GetConnectionString("projetoFinalUdemyContext"), builder =>
+                builder.MigrationsAssembly("projetoFinalUdemy")));
+    }
+    */
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
