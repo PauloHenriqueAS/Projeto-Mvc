@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using projetoFinalUdemy.Models;
+using projetoFinalUdemy.Data;
 
 namespace projetoFinalUdemy
 {   
@@ -20,6 +21,8 @@ namespace projetoFinalUdemy
         services.AddDbContext<projetoFinalUdemyContext>(options =>
             options.UseMySql(Configuration.GetConnectionString("projetoFinalUdemyContext"), builder =>
                 builder.MigrationsAssembly("projetoFinalUdemy")));
+
+         services.AddScoped<SeedingService>();
     }
     */
 
@@ -29,7 +32,7 @@ namespace projetoFinalUdemy
         {
             Configuration = configuration;
         }
-
+        
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -44,6 +47,8 @@ namespace projetoFinalUdemy
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                //Ambiente de desenvolvimento e popula o banco de dados
+                //seedingService.Seed();
             }
             else
             {

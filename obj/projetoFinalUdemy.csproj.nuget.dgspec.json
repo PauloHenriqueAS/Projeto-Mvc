@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/projetoFinalUdemy.csproj": {}
+    "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/projetoFinalUdemy.csproj": {}
   },
   "projects": {
-    "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/projetoFinalUdemy.csproj": {
+    "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/projetoFinalUdemy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/projetoFinalUdemy.csproj",
+        "projectUniqueName": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/projetoFinalUdemy.csproj",
         "projectName": "projetoFinalUdemy",
-        "projectPath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/projetoFinalUdemy.csproj",
+        "projectPath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/projetoFinalUdemy.csproj",
         "packagesPath": "/home/paulo/.nuget/packages/",
-        "outputPath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/obj/",
+        "outputPath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/paulo/.nuget/NuGet/NuGet.Config"

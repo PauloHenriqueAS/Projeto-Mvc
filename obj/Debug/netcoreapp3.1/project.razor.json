@@ -1,5 +1,5 @@
 {
-  "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/projetoFinalUdemy.csproj",
+  "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/projetoFinalUdemy.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,63 +14402,63 @@
   "RootNamespace": "projetoFinalUdemy",
   "Documents": [
     {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/Departments/Edit.cshtml",
-      "TargetPath": "Views\\Departments\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/Departments/Delete.cshtml",
-      "TargetPath": "Views\\Departments\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/Departments/Create.cshtml",
-      "TargetPath": "Views\\Departments\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/Departments/Index.cshtml",
-      "TargetPath": "Views\\Departments\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/Departments/Details.cshtml",
-      "TargetPath": "Views\\Departments\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/Shared/_Layout.cshtml",
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/Views/Home/Privacy.cshtml",
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Departments/Create.cshtml",
+      "TargetPath": "Views\\Departments\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Departments/Index.cshtml",
+      "TargetPath": "Views\\Departments\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Departments/Delete.cshtml",
+      "TargetPath": "Views\\Departments\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Departments/Details.cshtml",
+      "TargetPath": "Views\\Departments\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Departments/Edit.cshtml",
+      "TargetPath": "Views\\Departments\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],

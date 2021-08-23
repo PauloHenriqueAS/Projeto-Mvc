@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YdIzbJWFWBmavtAgsRmdjG3mPpOiCE/DtiflztvMl0xkTlD71gYRqrNmfkLff9cHiQzZEjWdY0bBkpafpzSptg==",
+  "dgSpecHash": "hZCwMu4SY5MqU3a4p8FzJJPHeqGm+odlqllQuhk+/0DryzXgqjjSfICvnK9gQx+ScipDIuQb2g0+RmMOGSjM/A==",
   "success": true,
-  "projectFilePath": "/home/paulo/Área de Trabalho/teste/codigosUdemy/projetoFinalUdemy/projetoFinalUdemy.csproj",
+  "projectFilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/projetoFinalUdemy.csproj",
   "expectedPackageFiles": [
     "/home/paulo/.nuget/packages/microsoft.entityframeworkcore/5.0.9/microsoft.entityframeworkcore.5.0.9.nupkg.sha512",
     "/home/paulo/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.9/microsoft.entityframeworkcore.abstractions.5.0.9.nupkg.sha512",
