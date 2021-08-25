@@ -1,0 +1,61 @@
+@model IEnumerable<projetoFinalUdemy.Models.Seller>
+<!-- ienumerable pq passamos uma lista-->
+
+@{
+    ViewData["Title"] = "Sellers";
+}
+
+<h2>Listagem dos vendedores</h2>
+
+<table class= "table table-striped table-hover">
+    <thread>
+        <tr class="success">
+            <th>
+                @Html.DisplayNameFor(model => model.Name)<!--Nome que aparecera em cima de cada coluna(model pode ser qualquer nome de variavel)-->
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.BirthDate)
+            </th>
+
+            <th>                
+                @Html.DisplayNameFor(model => model.BaseSalary)
+            </th>
+        </tr>
+        <th></th>
+    </thread>
+<!-- displayNameFor ele coloca o nome do atributo e displayFor coloca o valor de cada atributo-->
+    <!--Corpo com as informacoes que vieram do bd-->
+    <tbody>
+        @foreach (var item in Model)
+        {<!--Model aqui e referente a pasta model-->
+        
+         <tr>
+             <td>
+                 @Html.DisplayFor(modelItem => item.Name)
+             </td>
+
+             <td>
+                 @Html.DisplayFor(modelItem => item.Email)
+             </td>
+
+             <td>
+                 @Html.DisplayFor(modelItem => item.BirthDate)
+             </td>
+
+             <td>
+                 @Html.DisplayFor(modelItem => item.BaseSalary)
+             </td>
+             <td>
+                 <a asp-action="Edit" asp-route-itemid="@item.Id">Edit</a>
+                 <a asp-action="Create" asp-route-itemid="@item.Id">Create</a>
+                 <a asp-action="Delete" asp-route-itemid="@item.Id">Delete</a>
+             </td>
+         </tr>   
+        }
+    </tbody>
+</table>

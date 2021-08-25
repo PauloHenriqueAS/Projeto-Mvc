@@ -13,9 +13,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 using projetoFinalUdemy.Models;
 using projetoFinalUdemy.Data;
 using Pomelo.EntityFrameworkCore.MySql;
+using projetoFinalUdemy.Services;
 
 namespace projetoFinalUdemy
 { 
@@ -38,23 +40,36 @@ namespace projetoFinalUdemy
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            // Replace with your connection string.
+            var connectionString = "server=localhost;user=root;password=1234567890;database=projetofinaludemyappdb";
+
+            // Replace with your server version and type.
+            // Use 'MariaDbServerVersion' for MariaDB.
+            // Alternatively, use 'ServerVersion.AutoDetect(connectionString)'.
+            // For common usages, see pull request #1233.
+            var serverVersion = new MySqlServerVersion(new Version(8, 0, 25));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
-
-            services.AddDbContext<projetoFinalUdemyContext>(options =>
-                    options.UseMySql(Configuration.GetConnectionString("projetoFinalUdemyContext"), builder =>
-                        builder.MigrationsAssembly("projetoFinalUdemy")));
+            // Replace 'YourDbContext' with the name of your own DbContext derived class.
+            services.AddDbContext<projetoFinalUdemyContext>(
+                dbContextOptions => dbContextOptions
+                    .UseMySql(connectionString, serverVersion)
+                    .EnableSensitiveDataLogging() // <-- These two calls are optional but help
+                    .EnableDetailedErrors()       // <-- with debugging (remove for production).
+            );
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app,SeedingService seedingService, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, SeedingService seedingService)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
                 //Ambiente de desenvolvimento e popula o banco de dados
+                seedingService.Seed();
                 //seedingService.Seed();
             }
             else

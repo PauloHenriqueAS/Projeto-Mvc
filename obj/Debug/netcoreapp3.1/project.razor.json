@@ -14417,6 +14417,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Sellers/Index.cshtml",
+      "TargetPath": "Views\\Sellers\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/paulo/Área de Trabalho/teste/projetoFinalUdemy/Views/Departments/Index.cshtml",
       "TargetPath": "Views\\Departments\\Index.cshtml",
       "FileKind": "mvc"

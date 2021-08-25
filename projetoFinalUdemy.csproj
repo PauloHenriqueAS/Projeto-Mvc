@@ -6,11 +6,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.9">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.9" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.1" />
   </ItemGroup>
 
 </Project>
 <!--Pomelo na versao 3.1.1 mySql na 8.0 e EntityFrameWorkCore na 5.0.9
-dotnet add package Pomelo.EntityFrameworkCore.MySql --version 3.1.1
+dotnet add package Pomelo.EntityFrameworkCore.MySql - -version 3.1.1
 dotnet add package Microsoft.EntityFrameworkCore
 -->
